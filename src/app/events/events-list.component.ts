@@ -5,10 +5,9 @@ import { ToastrService } from '../common/toastr.service'
 declare let toastr
 
 @Component({
-  selector: 'events-list',
-  template: `
+ template: `
   <div>
-    <h1>Upcoming Angular 2 Events</h1>
+    <h1>Upcoming Angular Events</h1>
     <hr/>
     <div class="row">
       <div *ngFor="let event of events" class="col-md-5">
