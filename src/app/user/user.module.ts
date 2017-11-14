@@ -14,7 +14,7 @@ import { ProfileComponent } from './profile.component'
     RouterModule.forChild(userRoutes)
   ],
   declarations: [
-    ProfileComponent,
+    ProfileComponent
   ],
   providers: [
 
